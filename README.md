@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ⚡ ALL ENERGIE Website
 
 This is the official website for **SARL ALL ENERGIE**, a company based in Bouira, Algeria, providing high-quality materials and equipment for electricity, gas, and water.
@@ -32,3 +33,7 @@ Cité 338 logs, Bouira Ville, Algeria
 ---
 
 > This site was developed to represent the company online and facilitate contact with clients.
+=======
+# all-energie
+website of SARL ALL ENERGIE – Supplier of electrical, gas &amp; water equipment in Algeria.
+>>>>>>> 3dd114474f3099b63ea097025361ac548ee6a192
