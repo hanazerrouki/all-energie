@@ -109,8 +109,6 @@ function initProductGalleries() {
     });
 }
 
-
-
 // Theme Toggle Functionality
 const themeToggle = document.createElement('button');
 themeToggle.className = 'theme-toggle';

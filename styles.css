@@ -899,19 +899,6 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Dark Theme Styles */
 body.dark-theme {
     background-color: #121212;
@@ -966,7 +953,6 @@ body.dark-theme {
     color: #e0e0e0;
 }
 
-/* Theme Toggle Button */
 .theme-toggle {
     position: fixed;
     bottom: 70px;
@@ -993,6 +979,22 @@ body.dark-theme {
 .dark-theme .theme-toggle {
     background-color: var(--accent-yellow);
     color: #333;
+}
+.dark-theme #services,
+.dark-theme #products,
+.dark-theme #contact,
+.dark-theme #hours,
+.dark-theme #activities {
+    background-color: #1a1a1a !important;
+    background-image: none !important;
+}
+
+.dark-theme .hero::before {
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.dark-theme .hero {
+    background-color: #000 !important;
 }
 
 @media (max-width: 768px) {
