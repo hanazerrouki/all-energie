@@ -155,7 +155,11 @@ section {
 }
 /* Hero Section */
 .hero {
-    background: url('images/company/sarlhero.webp') no-repeat center center/cover;
+  height: 100vh;
+  min-height: 600px;
+}
+.hero {
+    background: url('images/company/sarlhero\ \(1\).webp') no-repeat center center/cover;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -890,4 +894,111 @@ footer {
     max-width: 220px;
     margin: 0.5rem auto;
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Dark Theme Styles */
+body.dark-theme {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark-theme header {
+    background: linear-gradient(135deg, #1a3a6a 0%, #0d1a2b 100%);
+}
+
+.dark-theme .logo-text h1 {
+    color: #ffffff;
+}
+
+.dark-theme nav ul li a {
+    color: #e0e0e0;
+}
+
+.dark-theme .section-title h2 {
+    color: var(--accent-yellow);
+}
+
+.dark-theme .product-card,
+.dark-theme .service-card,
+.dark-theme .activity-card,
+.dark-theme .hours-card {
+    background-color: #1e1e1e !important;
+    border-color: #333 !important;
+}
+
+.dark-theme .product-info h3,
+.dark-theme .product-info p,
+.dark-theme .service-card h3,
+.dark-theme .activity-card h3,
+.dark-theme .hours-title {
+    color: #ffffff !important;
+}
+
+.dark-theme .footer-column ul li a,
+.dark-theme .footer-column p {
+    color: #b0b0b0 !important;
+}
+
+.dark-theme .contact-form input,
+.dark-theme .contact-form textarea {
+    background-color: #2d2d2d !important;
+    color: #e0e0e0;
+    border-color: #444;
+}
+
+.dark-theme .day {
+    color: #e0e0e0;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--secondary-orange);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border: none;
+    transition: all 0.3s;
+}
+
+.theme-toggle:hover {
+    transform: scale(1.1);
+}
+
+.dark-theme .theme-toggle {
+    background-color: var(--accent-yellow);
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .theme-toggle {
+        bottom: 80px;
+        width: 45px;
+        height: 45px;
+    }
 }
