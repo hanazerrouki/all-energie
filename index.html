@@ -82,41 +82,55 @@
                 <p>Nous offrons également des services de livraison, de réservation et de retrait en magasin pour votre commodité.</p>
             </div>
             <div class="about-image">
-                   <img src="images/backgrounds/products.png" alt="Company or product image" style="width: 100%; height: 400px; object-fit: cover;">
+                   <img src="images/backgrounds/products.webp" alt="Company or product image" style="width: 100%; height: 400px; object-fit: cover;" >
             </div>
         </div>
     </section>
 
 
-  <!-- Activities Section -->
+
+
+<!--Activities section-->    
 <section class="activities" id="activities">
-    <div class="section-title reveal">
-        <h2>Nos Activités</h2>
-    </div>
+  <div class="section-title reveal">
+    <h2>Nos Activités</h2>
+  </div>
+
+  <div class="activities-wrapper" style="display: flex; justify-content: space-between; align-items: flex-start; gap: 2rem; max-width: 1200px; margin: 0 auto; padding: 0 2rem; flex-wrap: wrap;">
     
-    <div class="activities-container" style="max-width: 1200px; margin: 0 auto; padding: 0 2rem;">
-        <div class="activity-card reveal">
-            <h3><i class="fas fa-bolt"></i> Activités principales</h3>
-            <ul class="activity-list">
-                <li>Vente en gros de matériels et équipements d'électricité, gaz et eau</li>
-                <li>Câbles HT / MT / BT pour tous usages</li>
-                <li>Tubes PVC, PEHD et accessoires</li>
-                <li>Équipements pour installations électriques</li>
-                <li>Matériels de gaz et d'eau</li>
-            </ul>
-        </div>
-        
-        <div class="activity-card reveal">
-            <h3><i class="fas fa-industry"></i> Activités complémentaires</h3>
-            <ul class="activity-list">
-                <li>Commerce de fournitures pour toutes les industries et équipements liés au domaine de l'électricité et électronique</li>
-                <li>Commerce de joints en caoutchouc et plastique technique pour toutes applications</li>
-                <li>Équipements liés au domaine de l'énergie électrique et différentes sources d'énergie</li>
-                <li>Matériaux et équipements de référence pour la construction et travaux publics</li>
-            </ul>
-        </div>
+    <!-- Left side: both cards stacked vertically -->
+    <div class="activities-column" style="flex: 1 1 600px; min-width: 300px; display: flex; flex-direction: column; gap: 2rem;">
+      <div class="activity-card reveal">
+        <h3><i class="fas fa-bolt"></i> Activités principales</h3>
+        <ul class="activity-list">
+          <li>Vente en gros de matériels et équipements d'électricité, gaz et eau</li>
+          <li>Câbles HT / MT / BT pour tous usages</li>
+          <li>Tubes PVC, PEHD et accessoires</li>
+          <li>Équipements pour installations électriques</li>
+          <li>Matériels de gaz et d'eau</li>
+        </ul>
+      </div>
+
+      <div class="activity-card reveal">
+        <h3><i class="fas fa-industry"></i> Activités complémentaires</h3>
+        <ul class="activity-list">
+          <li>Commerce de fournitures pour toutes les industries et équipements liés au domaine de l'électricité et électronique</li>
+          <li>Commerce de joints en caoutchouc et plastique technique pour toutes applications</li>
+          <li>Équipements liés au domaine de l'énergie électrique et différentes sources d'énergie</li>
+          <li>Matériaux et équipements de référence pour la construction et travaux publics</li>
+        </ul>
+      </div>
     </div>
+
+
+    <div class="activities-image reveal" style="flex: 1 1 400px; min-width: 250px; align-self: center;">
+      <img src="images/backgrounds/activitie.png"  alt="Activités Image" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+    </div>
+  </div>
 </section>
+
+
+
 
 
 <!-- Products section -->
@@ -129,9 +143,9 @@
         <!-- Câbles électriques -->
         <div class="product-card">
             <div class="product-image">
-                <img src="images/Produits/cabless.jpg" alt="Câbles électriques" loading="lazy" class="active">
-                <img src="images/Produits/cables2.png" alt="Câbles électriques" loading="lazy">
-                 <img src="images/Produits/electric-cables.png" alt="Câbles électriques" loading="lazy">
+                <img src="images/Produits/cables/cabless.webp" alt="Câbles électriques" loading="lazy" class="active">
+                <img src="images/Produits/cables/cables.webp" alt="Câbles électriques" loading="lazy">
+                 <img src="images/Produits/cables/electric-cables.webp" alt="Câbles électriques" loading="lazy">
                 <div class="image-nav">
                     <button class="nav-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
                     <button class="nav-btn next-btn"><i class="fas fa-chevron-right"></i></button>
@@ -147,8 +161,8 @@
         <!-- Matériel électrique -->
         <div class="product-card">
             <div class="product-image">
-                <img src="images/Produits/elctronic-material2.png" alt="Matériel électrique" loading="lazy" class="active">
-                <img src="images/Produits/electronic-material.png" alt="Matériel électrique" loading="lazy">
+                <img src="images/Produits/electric-material/elctronic-material2.webp" alt="Matériel électrique" loading="lazy" class="active">
+                <img src="images/Produits/electric-material/electronic-material.webp" alt="Matériel électrique" loading="lazy">
                 <div class="image-nav">
                     <button class="nav-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
                     <button class="nav-btn next-btn"><i class="fas fa-chevron-right"></i></button>
@@ -164,9 +178,9 @@
         <!-- Matériel de gaz -->
         <div class="product-card">
             <div class="product-image">
-                <img src="images/Produits/gaz-material.png" alt="Matériel de gaz" loading="lazy" class="active">
-                <img src="images/Produits/gaz.png" alt="Matériel de gaz" loading="lazy">
-                 <img src="images/Produits/gazz.png" alt="Matériel de gaz" loading="lazy">
+                <img src="images/Produits/gaz-material/gaz-material.webp" alt="Matériel de gaz" loading="lazy" class="active">
+                <img src="images/Produits/gaz-material/gaz.webp" alt="Matériel de gaz" loading="lazy">
+                 <img src="images/Produits/gaz-material/gazz.webp" alt="Matériel de gaz" loading="lazy">
                 <div class="image-nav">
                     <button class="nav-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
                     <button class="nav-btn next-btn"><i class="fas fa-chevron-right"></i></button>
@@ -182,9 +196,9 @@
         <!-- Matériel d'eau -->
         <div class="product-card">
             <div class="product-image">
-                <img src="images/Produits/water-materials.png" alt="Matériel d'eau" loading="lazy" class="active">
-                <img src="images/Produits/water.png" alt="Matériel d'eau" loading="lazy">
-                 <img src="images/Produits/water3.png" alt="Matériel d'eau" loading="lazy">
+                <img src="images/Produits/water-material/water-materials.webp" alt="Matériel d'eau" loading="lazy" class="active">
+                <img src="images/Produits/water-material/water.webp" alt="Matériel d'eau" loading="lazy">
+                 <img src="images/Produits/water-material/water3.webp" alt="Matériel d'eau" loading="lazy">
                 <div class="image-nav">
                     <button class="nav-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
                     <button class="nav-btn next-btn"><i class="fas fa-chevron-right"></i></button>
@@ -200,10 +214,10 @@
         <!-- Tubes PVC & PEHD -->
         <div class="product-card">
             <div class="product-image">
-                <img src="images/Produits/tuyaux.png" alt="Tuyaux PVC & PEHD" loading="lazy" class="active">
-                <img src="images/Produits/PVC Copper Electrical Wire Electric Cable.jpg" alt="Tuyaux PVC & PEHD" loading="lazy">
-                <img src="images/Produits/pvcc.png" alt="Tuyaux PVC & PEHD" loading="lazy">
-                <img src="images/Produits/pvc2.png" alt="Tuyaux PVC & PEHD" loading="lazy">
+                <img src="images/Produits/Tubes/tuyaux.webp" alt="Tuyaux PVC & PEHD" loading="lazy" class="active">
+                <img src="images/Produits/Tubes/PVC Copper Electrical Wire Electric Cable.webp" alt="Tuyaux PVC & PEHD" loading="lazy">
+                <img src="images/Produits/Tubes/pvcc.webp" alt="Tuyaux PVC & PEHD" loading="lazy">
+                <img src="images/Produits/Tubes/pvc2.webp" alt="Tuyaux PVC & PEHD" loading="lazy">
                 <div class="image-nav">
                     <button class="nav-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
                     <button class="nav-btn next-btn"><i class="fas fa-chevron-right"></i></button>
