@@ -896,6 +896,43 @@ footer {
   }
 }
 
+@media (max-width: 768px) {
+    header {
+        padding: 0.3rem 0;
+    }
+    
+    .logo img {
+        height: 40px;
+        width: auto;
+    }
+    
+    .logo-text h1 {
+        font-size: 1.4rem;
+    }
+    
+    .logo-text span {
+        font-size: 0.7rem;
+    }
+
+    .hero {
+        padding-top: 60px;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo img {
+        height: 35px;
+    }
+    
+    .logo-text h1 {
+        font-size: 1.2rem;
+    }
+    
+    .logo-text span {
+        font-size: 0.6rem;
+    }
+}
+
 
 
 

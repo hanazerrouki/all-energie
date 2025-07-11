@@ -112,17 +112,17 @@ function initProductGalleries() {
 // Theme Toggle Functionality
 const themeToggle = document.createElement('button');
 themeToggle.className = 'theme-toggle';
-themeToggle.innerHTML = '<i class="fas fa-lightbulb"></i>';
+themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
 document.body.appendChild(themeToggle);
 
-// Check for saved theme preference or use preferred color scheme
-const currentTheme = localStorage.getItem('theme') || 
-                    (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+// Check for saved theme preference - default to light if none exists
+const currentTheme = localStorage.getItem('theme') || 'light';
 
 if (currentTheme === 'dark') {
     document.body.classList.add('dark-theme');
     themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
 } else {
+    // Light mode is default, no need to add class
     themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
 }
 
